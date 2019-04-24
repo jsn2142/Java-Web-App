@@ -1,8 +1,3 @@
-<%-- 
-    Document   : home
-    Created on : Jun 27, 2018, 12:07:08 PM
-    Author     : JsN_RiFaT
---%>
 <%@page import="javax.servlet.http.HttpSession"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
