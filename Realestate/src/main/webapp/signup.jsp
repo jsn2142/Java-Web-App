@@ -1,9 +1,3 @@
-<%-- 
-    Document   : signup
-    Created on : Jun 27, 2018, 10:02:01 AM
-    Author     : JsN_RiFaT
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
