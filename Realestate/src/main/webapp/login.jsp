@@ -1,15 +1,3 @@
-<%-- 
-    Document   : login
-    Created on : Jun 27, 2018, 12:48:36 PM
-    Author     : Anubis
---%>
-
-<%-- 
-    Document   : index
-    Created on : Jun 27, 2018, 1:01:28 PM
-    Author     : Anubis
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
