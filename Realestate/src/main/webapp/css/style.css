@@ -1,0 +1,458 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 05, 2018, 8:44:22 PM
+    Author     : Anubis
+*/
+
+
+body{
+    font-family: Arial ,Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+  
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+@font-face{
+    font-family: 'fragmentcore';
+    src:url('../fonts/Fragmentcore.otf');
+}
+
+header{
+    background:  url('../img/pexels-photo-106399.jpeg');
+    background-size: cover;
+   
+        transition: top 0.3s;
+    padding-top:15px;
+  
+    height: 800px;
+    border-bottom:#BF55EC; 
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    display: block;
+   
+}
+header li a:hover{
+    color:aquamarine;
+}
+header .current a{
+    color: aquamarine;
+    text-decoration: underline;
+    font-weight: bold;
+}
+header .btn1{
+ background:  url('../img/pexels-photo-106399.jpeg');
+      color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.btn1:hover{
+     background:aquamarine;
+}
+header .btn2{
+ background:  url('../img/pexels-photo-106399.jpeg');
+      color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.btn2:hover{
+     background: aquamarine;
+}
+header #branding{
+    float: left;
+}
+
+header #branding img{
+  height: 50px;
+}
+header nav{
+    float: right;
+}
+wrapper>div{
+    
+}
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+/* Set a style for all buttons */
+.btn3 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+.btn3:hover {
+    opacity: 0.8;
+}
+#mySidenav{
+    z-index: 20;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: greenyellow;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 180px;
+          
+}
+.sidenavstyle{
+    padding-top:35px;
+    font-size:20px;
+    cursor:pointer;
+    float:right;
+    color:white;
+    margin-right:20px;
+}
+.sidenav  a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: dimgrey;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar {
+    width: 200px;
+	height:200px;
+    border-radius: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+	padding-bottom: 30px;
+}
+.container2{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+   
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+
+
+
+/*contact*/
+* {
+    box-sizing: border-box;
+}
+    label{
+        color: whitesmoke;
+    }
+    h2{
+  color: whitesmoke;;
+    }
+    p{
+       color: whitesmoke;
+    }
+/* Style inputs */
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #DCC6E0;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    resize: vertical;
+}
+input[type=password], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #DCC6E0;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #674172;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #BF55EC;
+}
+
+/* Style the container/contact section */
+.container1 {
+    border-radius: 25px;
+    background-color:#ABB7B7;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 16px;
+    padding: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+/*footer*/
+
+footer{
+    font-family: fragmentcore;
+    padding-top: 70px;
+    width: 100%;
+    height: 680px;
+    background-color: #262626;
+text-decoration: none;
+      text-align: center;
+}
+footer footer{
+    height: 20px;
+    text-align: 50%;
+    margin-top: 30px;
+}
+footer footer a{
+    color: grey;
+}
+footer footer a:hover{
+    color: #c78b12;
+}
+footer li{
+cursor: pointer;
+    display: inline;
+}
+footer .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+}
+footer  img{
+    margin-top: 120px;
+    height: 40px;
+    
+    border-radius:50%;
+}
+
+footer .img1:hover{
+    background:#223985 ;
+    transition: .5s;
+}
+footer .img2:hover{
+    background:#609be8 ;
+    transition: .5s;
+}
+footer .img3:hover{
+    background:#6dcde3 ;
+    transition: .5s;
+}
+footer .img4:hover{
+    background:#D91E18 ;
+    transition: .5s;
+}
+footer .logo1{
+    margin-top: -130px;
+    
+}
+ .logo1 h1{
+     color: grey;
+     font-size: 25px;
+    font-family: fragmentcore;
+    margin-top: -9px;
+}
+footer .logo1 .image{
+    height: 90px;
+}
+footer .logo1 li{
+    font-size: 15px;
+}
+.wrapper{
+    margin-top: -110px;
+}
+footer .logo1 li{
+    color: lavender;
+}
+
+footer .logo1 li:hover{
+    color: #c78b12;
+    transition: .5s;
+}
+
+footer .logo1{
+    margin-top: -130px;
+    
+}
+footer .logo1 h1{
+
+    margin-top: -3px;
+}
+footer .logo1 li:hover{
+    color: #c78b12;
+    transition: .5s;
+}
+footer .logo1 .image{
+    height: 90px;
+}
+footer .logo1 li{
+    font-size: 15px;
+}
+.wrapper{
+    margin-top: -110px;
+}
+.company{
+    margin-top:20px;
+    margin-right: auto;
+    margin-left: auto;
+  
+  
+}
+.company a{
+    margin-left: auto;
+    margin-right: 30px;
+    color: darkcyan;
+  
+}
+.company h2{
+    color: lavender;
+}
+.company a:hover{
+   color: azure;
+    transition: .5s;
+}
+
+
+footer  a{
+    margin-top: -150px;
+    text-decoration: none;
+    color: dimgrey;
+}
+
+/*floating div*/
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
